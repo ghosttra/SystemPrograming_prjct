@@ -30,7 +30,7 @@ namespace SystemPrograming_prjct
 
             for (int i = 0; i < randomList.Count; i++)
             {
-                if (Functions.MessageBox(IntPtr.Zero, "Your digit is: " + randomList[i] + "?", "Digits guesser", (uint)Functions.YES_NO) == 6)
+                if (Functions.MessageBox(IntPtr.Zero, "Your digit is: " + randomList[i] + "?", "Digits guesser", (uint)Functions.YES_NO) == (int)YesNo.YES)
                 {
                     Functions.MessageBox(IntPtr.Zero, "Congrats!", "Digits guesser", 0);
                     break;
