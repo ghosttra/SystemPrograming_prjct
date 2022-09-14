@@ -1,5 +1,5 @@
 ﻿namespace DZ_14092022_wf {
-    partial class Form1 {
+    partial class MainForm {
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
@@ -50,7 +50,7 @@
             // bSubmit
             // 
             this.bSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.bSubmit.Location = new System.Drawing.Point(122, 91);
+            this.bSubmit.Location = new System.Drawing.Point(257, 94);
             this.bSubmit.Name = "bSubmit";
             this.bSubmit.Size = new System.Drawing.Size(95, 23);
             this.bSubmit.TabIndex = 1;
@@ -62,14 +62,14 @@
             // 
             this.tbCaption.Location = new System.Drawing.Point(223, 19);
             this.tbCaption.Name = "tbCaption";
-            this.tbCaption.Size = new System.Drawing.Size(120, 20);
+            this.tbCaption.Size = new System.Drawing.Size(129, 20);
             this.tbCaption.TabIndex = 2;
             // 
             // tbNewCaption
             // 
             this.tbNewCaption.Location = new System.Drawing.Point(223, 42);
             this.tbNewCaption.Name = "tbNewCaption";
-            this.tbNewCaption.Size = new System.Drawing.Size(120, 20);
+            this.tbNewCaption.Size = new System.Drawing.Size(129, 20);
             this.tbNewCaption.TabIndex = 3;
             // 
             // lCaption
@@ -150,7 +150,7 @@
             this.bBeeps.UseVisualStyleBackColor = true;
             this.bBeeps.Click += new System.EventHandler(this.bBeeps_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -158,8 +158,11 @@
             this.Controls.Add(this.bBeeps);
             this.Controls.Add(this.gbEx2);
             this.Controls.Add(this.bBIO);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "MainForm";
+            this.ShowIcon = false;
+            this.Text = "Main menu";
             this.gbEx2.ResumeLayout(false);
             this.gbEx2.PerformLayout();
             this.ResumeLayout(false);

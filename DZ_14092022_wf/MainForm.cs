@@ -10,8 +10,8 @@ using SystemPrograming_prjct;
 using System.Windows.Forms;
 
 namespace DZ_14092022_wf {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class MainForm : Form {
+        public MainForm() {
             InitializeComponent();
         }
 
